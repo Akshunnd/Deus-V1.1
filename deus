@@ -22,12 +22,12 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ResetOnSpawn = false
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(45, 41, 49)
-Frame.BackgroundTransparency = 0.150
-Frame.BorderColor3 = Color3.fromRGB(201, 179, 208)
+Frame.BackgroundColor3 = Color3.fromRGB(144, 0, 2)
+Frame.BackgroundTransparency = 0.500
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 4
-Frame.Position = UDim2.new(0.562395275, 0, 0.300440401, 0)
-Frame.Size = UDim2.new(0, 320, 0, 306)
+Frame.Position = UDim2.new(0.570884287, 0, 0.293553352, 0)
+Frame.Size = UDim2.new(0, 297, 0, 307)
 Frame.Active = true
 Frame.Draggable = true
 
@@ -37,7 +37,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(152, 147, 149)
 TextLabel.BackgroundTransparency = 0.350
 TextLabel.BorderColor3 = Color3.fromRGB(229, 229, 229)
 TextLabel.BorderSizePixel = 3
-TextLabel.Position = UDim2.new(0.3125, 0, 0.877569735, 0)
+TextLabel.Position = UDim2.new(0.292297989, 0, 0.874312401, 0)
 TextLabel.Size = UDim2.new(0, 203, 0, 30)
 TextLabel.Font = Enum.Font.Unknown
 TextLabel.Text = "DeusTouch V1.1 Made By :- Aks_z0"
@@ -96,7 +96,6 @@ Gui.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/GuiHub/main/Gui",true))();
 end)
 
-
 BlackHole.Name = "BlackHole"
 BlackHole.Parent = Frame
 BlackHole.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
@@ -118,8 +117,8 @@ end)
 Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(140, 120, 139)
 Frame_2.BorderColor3 = Color3.fromRGB(121, 98, 121)
-Frame_2.Position = UDim2.new(0, 0, 0.837685466, 0)
-Frame_2.Size = UDim2.new(0, 323, 0, 2)
+Frame_2.Position = UDim2.new(0, 0, 0.827913463, 0)
+Frame_2.Size = UDim2.new(0, 297, 0, 5)
 
 Visualizer.Name = "Visualizer"
 Visualizer.Parent = Frame
@@ -138,7 +137,6 @@ Visualizer.TextWrapped = true
 Visualizer.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/HashHub/main/HashHub",true))();
 end)
-
 
 Panthom.Name = "Panthom"
 Panthom.Parent = Frame
