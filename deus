@@ -1,0 +1,193 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local KillAll = Instance.new("TextButton")
+local BringAll = Instance.new("TextButton")
+local Gui = Instance.new("TextButton")
+local BlackHole = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local Visualizer = Instance.new("TextButton")
+local Panthom = Instance.new("TextButton")
+local Leg = Instance.new("TextButton")
+local InfYeild = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(45, 41, 49)
+Frame.BackgroundTransparency = 0.150
+Frame.BorderColor3 = Color3.fromRGB(201, 179, 208)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.562395275, 0, 0.300440401, 0)
+Frame.Size = UDim2.new(0, 320, 0, 306)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Name = "."
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(152, 147, 149)
+TextLabel.BackgroundTransparency = 0.350
+TextLabel.BorderColor3 = Color3.fromRGB(229, 229, 229)
+TextLabel.BorderSizePixel = 3
+TextLabel.Position = UDim2.new(0.3125, 0, 0.877569735, 0)
+TextLabel.Size = UDim2.new(0, 203, 0, 30)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "DeusTouch V1.1 Made By :- Aks_z0"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+KillAll.Name = "Kill All"
+KillAll.Parent = Frame
+KillAll.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
+KillAll.BackgroundTransparency = 0.500
+KillAll.BorderColor3 = Color3.fromRGB(208, 186, 186)
+KillAll.BorderSizePixel = 3
+KillAll.Position = UDim2.new(0.0375000015, 0, 0.0388888903, 0)
+KillAll.Size = UDim2.new(0, 132, 0, 47)
+KillAll.Font = Enum.Font.Unknown
+KillAll.Text = "Kill All"
+KillAll.TextColor3 = Color3.fromRGB(227, 227, 227)
+KillAll.TextSize = 23.000
+KillAll.TextStrokeColor3 = Color3.fromRGB(238, 108, 255)
+KillAll.TextWrapped = true
+KillAll.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Kill%20All'))() 
+end)
+
+BringAll.Name = "Bring All"
+BringAll.Parent = Frame
+BringAll.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
+BringAll.BackgroundTransparency = 0.500
+BringAll.BorderColor3 = Color3.fromRGB(208, 186, 186)
+BringAll.BorderSizePixel = 3
+BringAll.Position = UDim2.new(0.534375012, 0, 0.0388888903, 0)
+BringAll.Size = UDim2.new(0, 132, 0, 47)
+BringAll.Font = Enum.Font.Unknown
+BringAll.Text = "Bring All"
+BringAll.TextColor3 = Color3.fromRGB(227, 227, 227)
+BringAll.TextSize = 24.000
+BringAll.TextStrokeColor3 = Color3.fromRGB(238, 108, 255)
+BringAll.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Kill%20All'))()
+end)
+
+Gui.Name = "Gui"
+Gui.Parent = Frame
+Gui.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
+Gui.BackgroundTransparency = 0.500
+Gui.BorderColor3 = Color3.fromRGB(208, 186, 186)
+Gui.BorderSizePixel = 3
+Gui.Position = UDim2.new(0.0375000238, 0, 0.23888889, 0)
+Gui.Size = UDim2.new(0, 132, 0, 47)
+Gui.Font = Enum.Font.Unknown
+Gui.Text = "Kill/Bring GUI"
+Gui.TextColor3 = Color3.fromRGB(227, 227, 227)
+Gui.TextSize = 23.000
+Gui.TextStrokeColor3 = Color3.fromRGB(238, 108, 255)
+Gui.TextWrapped = true
+Gui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/GuiHub/main/Gui",true))();
+end)
+
+BlackHole.Name = "BlackHole"
+BlackHole.Parent = Frame
+BlackHole.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
+BlackHole.BackgroundTransparency = 0.500
+BlackHole.BorderColor3 = Color3.fromRGB(208, 186, 186)
+BlackHole.BorderSizePixel = 3
+BlackHole.Position = UDim2.new(0.534375012, 0, 0.23888889, 0)
+BlackHole.Size = UDim2.new(0, 132, 0, 47)
+BlackHole.Font = Enum.Font.Unknown
+BlackHole.Text = "Black Hole"
+BlackHole.TextColor3 = Color3.fromRGB(227, 227, 227)
+BlackHole.TextSize = 24.000
+BlackHole.TextStrokeColor3 = Color3.fromRGB(238, 108, 255)
+BlackHole.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/BlackHole/main/BlackHole",true))();
+end)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(140, 120, 139)
+Frame_2.BorderColor3 = Color3.fromRGB(121, 98, 121)
+Frame_2.Position = UDim2.new(0, 0, 0.837685466, 0)
+Frame_2.Size = UDim2.new(0, 323, 0, 2)
+
+Visualizer.Name = "Visualizer"
+Visualizer.Parent = Frame
+Visualizer.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
+Visualizer.BackgroundTransparency = 0.500
+Visualizer.BorderColor3 = Color3.fromRGB(208, 186, 186)
+Visualizer.BorderSizePixel = 3
+Visualizer.Position = UDim2.new(0.0375000015, 0, 0.433333337, 0)
+Visualizer.Size = UDim2.new(0, 132, 0, 47)
+Visualizer.Font = Enum.Font.Unknown
+Visualizer.Text = "Audio Vis."
+Visualizer.TextColor3 = Color3.fromRGB(227, 227, 227)
+Visualizer.TextSize = 23.000
+Visualizer.TextStrokeColor3 = Color3.fromRGB(238, 108, 255)
+Visualizer.TextWrapped = true
+Visualizer.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/HashHub/main/HashHub",true))();
+end)
+
+Panthom.Name = "Panthom"
+Panthom.Parent = Frame
+Panthom.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
+Panthom.BackgroundTransparency = 0.500
+Panthom.BorderColor3 = Color3.fromRGB(208, 186, 186)
+Panthom.BorderSizePixel = 3
+Panthom.Position = UDim2.new(0.534375012, 0, 0.433333337, 0)
+Panthom.Size = UDim2.new(0, 132, 0, 47)
+Panthom.Font = Enum.Font.Unknown
+Panthom.Text = "Panthom Paid"
+Panthom.TextColor3 = Color3.fromRGB(227, 227, 227)
+Panthom.TextSize = 23.000
+Panthom.TextStrokeColor3 = Color3.fromRGB(238, 108, 255)
+Panthom.TextWrapped = true
+Panthom.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://gist.githubusercontent.com/duular/7d972e6c3cf88e36b07dedf9a8858fa7/raw/1d4e83e5fc8d3d3f4f4766c4f1ab35040a49969e/gistfile1.txt'), true))()
+end)
+
+Leg.Name = "Leg"
+Leg.Parent = Frame
+Leg.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
+Leg.BackgroundTransparency = 0.500
+Leg.BorderColor3 = Color3.fromRGB(208, 186, 186)
+Leg.BorderSizePixel = 3
+Leg.Position = UDim2.new(0.534375012, 0, 0.627777815, 0)
+Leg.Size = UDim2.new(0, 132, 0, 47)
+Leg.Font = Enum.Font.Unknown
+Leg.Text = "Leg's Admin"
+Leg.TextColor3 = Color3.fromRGB(227, 227, 227)
+Leg.TextSize = 23.000
+Leg.TextStrokeColor3 = Color3.fromRGB(238, 108, 255)
+Leg.TextWrapped = true
+Leg.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
+end)
+
+InfYeild.Name = "Inf.Yeild"
+InfYeild.Parent = Frame
+InfYeild.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
+InfYeild.BackgroundTransparency = 0.500
+InfYeild.BorderColor3 = Color3.fromRGB(208, 186, 186)
+InfYeild.BorderSizePixel = 3
+InfYeild.Position = UDim2.new(0.0375000238, 0, 0.627777815, 0)
+InfYeild.Size = UDim2.new(0, 132, 0, 47)
+InfYeild.Font = Enum.Font.Unknown
+InfYeild.Text = "Infinite Yeild"
+InfYeild.TextColor3 = Color3.fromRGB(227, 227, 227)
+InfYeild.TextSize = 23.000
+InfYeild.TextStrokeColor3 = Color3.fromRGB(238, 108, 255)
+InfYeild.TextWrapped = true
+InfYeild.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
