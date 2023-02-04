@@ -10,7 +10,6 @@ local KillAll = Instance.new("TextButton")
 local BringAll = Instance.new("TextButton")
 local Gui = Instance.new("TextButton")
 local BlackHole = Instance.new("TextButton")
-local Frame_2 = Instance.new("Frame")
 local Visualizer = Instance.new("TextButton")
 local Panthom = Instance.new("TextButton")
 local Leg = Instance.new("TextButton")
@@ -26,10 +25,11 @@ Frame.BackgroundColor3 = Color3.fromRGB(144, 0, 2)
 Frame.BackgroundTransparency = 0.500
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 4
-Frame.Position = UDim2.new(0.570884287, 0, 0.293553352, 0)
-Frame.Size = UDim2.new(0, 297, 0, 307)
+Frame.Position = UDim2.new(0.570884287, 0, 0.329710394, 0)
+Frame.Size = UDim2.new(0, 297, 0, 287)
 Frame.Active = true
 Frame.Draggable = true
+
 
 TextLabel.Name = "."
 TextLabel.Parent = Frame
@@ -37,7 +37,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(152, 147, 149)
 TextLabel.BackgroundTransparency = 0.350
 TextLabel.BorderColor3 = Color3.fromRGB(229, 229, 229)
 TextLabel.BorderSizePixel = 3
-TextLabel.Position = UDim2.new(0.292297989, 0, 0.874312401, 0)
+TextLabel.Position = UDim2.new(0.0263047516, 0, 0.859251559, 0)
 TextLabel.Size = UDim2.new(0, 203, 0, 30)
 TextLabel.Font = Enum.Font.Unknown
 TextLabel.Text = "DeusTouch V1.1 Made By :- Aks_z0"
@@ -49,7 +49,7 @@ KillAll.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
 KillAll.BackgroundTransparency = 0.500
 KillAll.BorderColor3 = Color3.fromRGB(208, 186, 186)
 KillAll.BorderSizePixel = 3
-KillAll.Position = UDim2.new(0.0375000015, 0, 0.0388888903, 0)
+KillAll.Position = UDim2.new(0.0273989439, 0, 0.0452931374, 0)
 KillAll.Size = UDim2.new(0, 132, 0, 47)
 KillAll.Font = Enum.Font.Unknown
 KillAll.Text = "Kill All"
@@ -67,7 +67,7 @@ BringAll.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
 BringAll.BackgroundTransparency = 0.500
 BringAll.BorderColor3 = Color3.fromRGB(208, 186, 186)
 BringAll.BorderSizePixel = 3
-BringAll.Position = UDim2.new(0.534375012, 0, 0.0388888903, 0)
+BringAll.Position = UDim2.new(0.524273992, 0, 0.0452931374, 0)
 BringAll.Size = UDim2.new(0, 132, 0, 47)
 BringAll.Font = Enum.Font.Unknown
 BringAll.Text = "Bring All"
@@ -84,7 +84,7 @@ Gui.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
 Gui.BackgroundTransparency = 0.500
 Gui.BorderColor3 = Color3.fromRGB(208, 186, 186)
 Gui.BorderSizePixel = 3
-Gui.Position = UDim2.new(0.0375000238, 0, 0.23888889, 0)
+Gui.Position = UDim2.new(0.0273990631, 0, 0.245293155, 0)
 Gui.Size = UDim2.new(0, 132, 0, 47)
 Gui.Font = Enum.Font.Unknown
 Gui.Text = "Kill/Bring GUI"
@@ -96,13 +96,14 @@ Gui.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/GuiHub/main/Gui",true))();
 end)
 
+
 BlackHole.Name = "BlackHole"
 BlackHole.Parent = Frame
 BlackHole.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
 BlackHole.BackgroundTransparency = 0.500
 BlackHole.BorderColor3 = Color3.fromRGB(208, 186, 186)
 BlackHole.BorderSizePixel = 3
-BlackHole.Position = UDim2.new(0.534375012, 0, 0.23888889, 0)
+BlackHole.Position = UDim2.new(0.524273992, 0, 0.245293155, 0)
 BlackHole.Size = UDim2.new(0, 132, 0, 47)
 BlackHole.Font = Enum.Font.Unknown
 BlackHole.Text = "Black Hole"
@@ -114,11 +115,6 @@ BlackHole.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/BlackHole/main/BlackHole",true))();
 end)
 
-Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(140, 120, 139)
-Frame_2.BorderColor3 = Color3.fromRGB(121, 98, 121)
-Frame_2.Position = UDim2.new(0, 0, 0.827913463, 0)
-Frame_2.Size = UDim2.new(0, 297, 0, 5)
 
 Visualizer.Name = "Visualizer"
 Visualizer.Parent = Frame
@@ -126,7 +122,7 @@ Visualizer.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
 Visualizer.BackgroundTransparency = 0.500
 Visualizer.BorderColor3 = Color3.fromRGB(208, 186, 186)
 Visualizer.BorderSizePixel = 3
-Visualizer.Position = UDim2.new(0.0375000015, 0, 0.433333337, 0)
+Visualizer.Position = UDim2.new(0.0273989439, 0, 0.439737558, 0)
 Visualizer.Size = UDim2.new(0, 132, 0, 47)
 Visualizer.Font = Enum.Font.Unknown
 Visualizer.Text = "Audio Vis."
@@ -144,7 +140,7 @@ Panthom.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
 Panthom.BackgroundTransparency = 0.500
 Panthom.BorderColor3 = Color3.fromRGB(208, 186, 186)
 Panthom.BorderSizePixel = 3
-Panthom.Position = UDim2.new(0.534375012, 0, 0.433333337, 0)
+Panthom.Position = UDim2.new(0.524273992, 0, 0.439737558, 0)
 Panthom.Size = UDim2.new(0, 132, 0, 47)
 Panthom.Font = Enum.Font.Unknown
 Panthom.Text = "Panthom Paid"
@@ -162,7 +158,7 @@ Leg.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
 Leg.BackgroundTransparency = 0.500
 Leg.BorderColor3 = Color3.fromRGB(208, 186, 186)
 Leg.BorderSizePixel = 3
-Leg.Position = UDim2.new(0.534375012, 0, 0.627777815, 0)
+Leg.Position = UDim2.new(0.524273992, 0, 0.634182096, 0)
 Leg.Size = UDim2.new(0, 132, 0, 47)
 Leg.Font = Enum.Font.Unknown
 Leg.Text = "Leg's Admin"
@@ -180,7 +176,7 @@ InfYeild.BackgroundColor3 = Color3.fromRGB(131, 108, 129)
 InfYeild.BackgroundTransparency = 0.500
 InfYeild.BorderColor3 = Color3.fromRGB(208, 186, 186)
 InfYeild.BorderSizePixel = 3
-InfYeild.Position = UDim2.new(0.0375000238, 0, 0.627777815, 0)
+InfYeild.Position = UDim2.new(0.0273990631, 0, 0.634182096, 0)
 InfYeild.Size = UDim2.new(0, 132, 0, 47)
 InfYeild.Font = Enum.Font.Unknown
 InfYeild.Text = "Infinite Yeild"
