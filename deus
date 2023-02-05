@@ -5,15 +5,16 @@
 
 local ScreenGui = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
-local LegsAdmin = Instance.new("TextButton")
 local Panthom = Instance.new("TextButton")
 local KillBringgui = Instance.new("TextButton")
-local KillAll = Instance.new("TextButton")
 local InfiniteYeild = Instance.new("TextButton")
 local BringAll = Instance.new("TextButton")
+local KillAll = Instance.new("TextButton")
 local BlackHole = Instance.new("TextButton")
-local AudioVis = Instance.new("TextButton")
-local Bdoorer = Instance.new("TextButton")
+local LegsAdmin = Instance.new("TextButton")
+local AudioVisualizzer = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
 
 --Properties:
 
@@ -27,23 +28,6 @@ ImageLabel.Size = UDim2.new(0, 613, 0, 317)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12387063748"
 ImageLabel.Active = true
 ImageLabel.Draggable = true
-
-LegsAdmin.Name = "Leg's Admin"
-LegsAdmin.Parent = ImageLabel
-LegsAdmin.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
-LegsAdmin.BackgroundTransparency = 1.000
-LegsAdmin.BorderColor3 = Color3.fromRGB(172, 172, 172)
-LegsAdmin.BorderSizePixel = 3
-LegsAdmin.Position = UDim2.new(0.163864359, 0, 0.640676975, 0)
-LegsAdmin.Size = UDim2.new(0.132751271, 0, 0.228360176, 0)
-LegsAdmin.Font = Enum.Font.Unknown
-LegsAdmin.Text = "Leg's Admin"
-LegsAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
-LegsAdmin.TextSize = 11.000
-LegsAdmin.TextWrapped = true
-LegsAdmin.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
-end)
 
 Panthom.Name = "Panthom"
 Panthom.Parent = ImageLabel
@@ -68,7 +52,7 @@ KillBringgui.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
 KillBringgui.BackgroundTransparency = 1.000
 KillBringgui.BorderColor3 = Color3.fromRGB(172, 172, 172)
 KillBringgui.BorderSizePixel = 3
-KillBringgui.Position = UDim2.new(0.00831143465, 0, 0.371085465, 0)
+KillBringgui.Position = UDim2.new(0.0132053941, 0, 0.358467162, 0)
 KillBringgui.Size = UDim2.new(0.142502099, 0, 0.244218513, 0)
 KillBringgui.Font = Enum.Font.Unknown
 KillBringgui.Text = "Kill/Bring gui"
@@ -77,6 +61,40 @@ KillBringgui.TextSize = 11.000
 KillBringgui.TextWrapped = true
 KillBringgui.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/GuiHub/main/Gui",true))();
+end)
+
+InfiniteYeild.Name = "Infinite Yeild"
+InfiniteYeild.Parent = ImageLabel
+InfiniteYeild.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+InfiniteYeild.BackgroundTransparency = 1.000
+InfiniteYeild.BorderColor3 = Color3.fromRGB(172, 172, 172)
+InfiniteYeild.BorderSizePixel = 3
+InfiniteYeild.Position = UDim2.new(0, 0, 0.735827029, 0)
+InfiniteYeild.Size = UDim2.new(0.150813609, 0, 0.228360176, 0)
+InfiniteYeild.Font = Enum.Font.Unknown
+InfiniteYeild.Text = "Infinite Yeild"
+InfiniteYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYeild.TextSize = 11.000
+InfiniteYeild.TextWrapped = true
+InfiniteYeild:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+BringAll.Name = "Bring All"
+BringAll.Parent = ImageLabel
+BringAll.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+BringAll.BackgroundTransparency = 1.000
+BringAll.BorderColor3 = Color3.fromRGB(172, 172, 172)
+BringAll.BorderSizePixel = 3
+BringAll.Position = UDim2.new(0.218082502, 0, -0.00630919635, 0)
+BringAll.Size = UDim2.new(0.149182484, 0, 0.228360146, 0)
+BringAll.Font = Enum.Font.Unknown
+BringAll.Text = "Bring All"
+BringAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+BringAll.TextSize = 11.000
+BringAll.TextWrapped = true
+BringAll.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Kill%20All'))()
 end)
 
 KillAll.Name = "Kill All"
@@ -96,49 +114,14 @@ KillAll.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Kill%20All'))() 
 end)
 
-InfiniteYeild.Name = "Infinite Yeild"
-InfiniteYeild.Parent = ImageLabel
-InfiniteYeild.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
-InfiniteYeild.BackgroundTransparency = 1.000
-InfiniteYeild.BorderColor3 = Color3.fromRGB(172, 172, 172)
-InfiniteYeild.BorderSizePixel = 3
-InfiniteYeild.Position = UDim2.new(0, 0, 0.735827029, 0)
-InfiniteYeild.Size = UDim2.new(0.150813609, 0, 0.228360176, 0)
-InfiniteYeild.Font = Enum.Font.Unknown
-InfiniteYeild.Text = "Infinite Yeild"
-InfiniteYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
-InfiniteYeild.TextSize = 11.000
-InfiniteYeild.TextWrapped = true
-InfYeild.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
-
-BringAll.Name = "Bring All"
-BringAll.Parent = ImageLabel
-BringAll.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
-BringAll.BackgroundTransparency = 1.000
-BringAll.BorderColor3 = Color3.fromRGB(172, 172, 172)
-BringAll.BorderSizePixel = 3
-BringAll.Position = UDim2.new(0.218082502, 0, -0.00630919635, 0)
-BringAll.Size = UDim2.new(0.149182484, 0, 0.228360146, 0)
-BringAll.Font = Enum.Font.Unknown
-BringAll.Text = "Bring All"
-BringAll.TextColor3 = Color3.fromRGB(255, 255, 255)
-BringAll.TextSize = 11.000
-BringAll.TextWrapped = true
-BringAll.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Kill%20All'))()
-end)
-
 BlackHole.Name = "BlackHole"
 BlackHole.Parent = ImageLabel
 BlackHole.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
 BlackHole.BackgroundTransparency = 1.000
 BlackHole.BorderColor3 = Color3.fromRGB(172, 172, 172)
 BlackHole.BorderSizePixel = 3
-BlackHole.Position = UDim2.new(0.163864359, 0, 0.241149515, 0)
-BlackHole.Size = UDim2.new(0.132751271, 0, 0.237823874, 0)
+BlackHole.Position = UDim2.new(0.163864359, 0, 0.249553308, 0)
+BlackHole.Size = UDim2.new(0.137031004, 0, 0.222050995, 0)
 BlackHole.Font = Enum.Font.Unknown
 BlackHole.Text = "BlackHole"
 BlackHole.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -148,36 +131,56 @@ BlackHole.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/BlackHole/main/BlackHole",true))();
 end)
 
-AudioVis.Name = "Audio Vis."
-AudioVis.Parent = ImageLabel
-AudioVis.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
-AudioVis.BackgroundTransparency = 1.000
-AudioVis.BorderColor3 = Color3.fromRGB(172, 172, 172)
-AudioVis.BorderSizePixel = 3
-AudioVis.Position = UDim2.new(0.497305393, 0, 0.669068158, 0)
-AudioVis.Size = UDim2.new(0.154076442, 0, 0.228360176, 0)
-AudioVis.Font = Enum.Font.Unknown
-AudioVis.Text = "Audio Vis."
-AudioVis.TextColor3 = Color3.fromRGB(255, 255, 255)
-AudioVis.TextSize = 11.000
-AudioVis.TextWrapped = true
-AudioVis.MouseButton1Down:connect(function()
+
+LegsAdmin.Name = "LegsAdmin"
+LegsAdmin.Parent = ImageLabel
+LegsAdmin.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+LegsAdmin.BackgroundTransparency = 1.000
+LegsAdmin.BorderColor3 = Color3.fromRGB(172, 172, 172)
+LegsAdmin.BorderSizePixel = 3
+LegsAdmin.Position = UDim2.new(0.163864359, 0, 0.638035238, 0)
+LegsAdmin.Size = UDim2.new(0.137031004, 0, 0.215741873, 0)
+LegsAdmin.Font = Enum.Font.Unknown
+LegsAdmin.Text = "Infinite Yeild"
+LegsAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+LegsAdmin.TextSize = 11.000
+LegsAdmin.TextWrapped = true
+LegsAdmin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
+end)
+
+AudioVisualizzer.Name = "AudioVisualizzer"
+AudioVisualizzer.Parent = ImageLabel
+AudioVisualizzer.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+AudioVisualizzer.BackgroundTransparency = 1.000
+AudioVisualizzer.BorderColor3 = Color3.fromRGB(172, 172, 172)
+AudioVisualizzer.BorderSizePixel = 3
+AudioVisualizzer.Position = UDim2.new(0.508073151, 0, 0.678575397, 0)
+AudioVisualizzer.Size = UDim2.new(0.137031004, 0, 0.222050995, 0)
+AudioVisualizzer.Font = Enum.Font.Unknown
+AudioVisualizzer.Text = "AudioVisualizer"
+AudioVisualizzer.TextColor3 = Color3.fromRGB(255, 255, 255)
+AudioVisualizzer.TextSize = 11.000
+AudioVisualizzer.TextWrapped = true
+AudioVisualizzer.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/HashHub/main/HashHub",true))();
 end)
 
-Bdoorer.Name = "Bdoorer"
-Bdoorer.Parent = ImageLabel
-Bdoorer.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
-Bdoorer.BackgroundTransparency = 1.000
-Bdoorer.BorderColor3 = Color3.fromRGB(172, 172, 172)
-Bdoorer.BorderSizePixel = 3
-Bdoorer.Position = UDim2.new(0.335153103, 0, 0.629162133, 0)
-Bdoorer.Size = UDim2.new(0.132751271, 0, 0.237823874, 0)
-Bdoorer.Font = Enum.Font.Unknown
-Bdoorer.Text = "Bdoorer"
-Bdoorer.TextColor3 = Color3.fromRGB(255, 255, 255)
-Bdoorer.TextSize = 11.000
-Bdoorer.TextWrapped = true
-Bdoorer.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/Backdoorer/main/Backdoor",true))();
-end)
+TextLabel.Parent = ImageLabel
+TextLabel.BackgroundColor3 = Color3.fromRGB(170, 67, 74)
+TextLabel.BorderColor3 = Color3.fromRGB(182, 135, 158)
+TextLabel.BorderSizePixel = 2
+TextLabel.Position = UDim2.new(0.300895393, 0, 0.358467191, 0)
+TextLabel.Size = UDim2.new(0, 229, 0, 26)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "DeusHub"
+TextLabel.TextColor3 = Color3.fromRGB(208, 214, 255)
+TextLabel.TextSize = 14.000
+
+Frame.Parent = ImageLabel
+Frame.BackgroundColor3 = Color3.fromRGB(177, 121, 255)
+Frame.BackgroundTransparency = 0.750
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.300895363, 0, 0.470031559, 0)
+Frame.Size = UDim2.new(0, 229, 0, 31)
