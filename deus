@@ -10,6 +10,9 @@ local BringAll = Instance.new("TextButton")
 local COOLGUI = Instance.new("TextButton")
 local Visualizer = Instance.new("TextButton")
 local Panthom = Instance.new("TextButton")
+local InfYeild = Instance.new("TextButton")
+local Proton = Instance.new("TextButton")
+local Sword = Instance.new("TextButton")
 
 --Properties:
 
@@ -65,7 +68,7 @@ COOLGUI.Parent = ImageLabel
 COOLGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 COOLGUI.BackgroundTransparency = 1.000
 COOLGUI.BorderColor3 = Color3.fromRGB(130, 203, 255)
-COOLGUI.Position = UDim2.new(0, 0, 0.726457357, 0)
+COOLGUI.Position = UDim2.new(0.17607224, 0, 0.260089636, 0)
 COOLGUI.Size = UDim2.new(0, 61, 0, 50)
 COOLGUI.Font = Enum.Font.Unknown
 COOLGUI.Text = "COOLGUI"
@@ -82,7 +85,7 @@ Visualizer.Parent = ImageLabel
 Visualizer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Visualizer.BackgroundTransparency = 1.000
 Visualizer.BorderColor3 = Color3.fromRGB(130, 203, 255)
-Visualizer.Position = UDim2.new(0.410835207, 0, 0.0896860883, 0)
+Visualizer.Position = UDim2.new(0.343115151, 0, 0.609865427, 0)
 Visualizer.Size = UDim2.new(0, 61, 0, 50)
 Visualizer.Font = Enum.Font.Unknown
 Visualizer.Text = "Visualizer"
@@ -99,7 +102,7 @@ Panthom.Parent = ImageLabel
 Panthom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Panthom.BackgroundTransparency = 1.000
 Panthom.BorderColor3 = Color3.fromRGB(130, 203, 255)
-Panthom.Position = UDim2.new(0.566591382, 0, -7.4505806e-09, 0)
+Panthom.Position = UDim2.new(0.507900596, 0, 0.690582991, 0)
 Panthom.Size = UDim2.new(0, 61, 0, 50)
 Panthom.Font = Enum.Font.Unknown
 Panthom.Text = "Panthom"
@@ -109,4 +112,55 @@ Panthom.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Panthom.TextWrapped = true
 Panthom.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://gist.githubusercontent.com/duular/7d972e6c3cf88e36b07dedf9a8858fa7/raw/1d4e83e5fc8d3d3f4f4766c4f1ab35040a49969e/gistfile1.txt'), true))()
+end)
+
+InfYeild.Name = "Inf Yeild"
+InfYeild.Parent = ImageLabel
+InfYeild.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfYeild.BackgroundTransparency = 1.000
+InfYeild.BorderColor3 = Color3.fromRGB(130, 203, 255)
+InfYeild.Position = UDim2.new(0, 0, 0.721973062, 0)
+InfYeild.Size = UDim2.new(0, 51, 0, 50)
+InfYeild.Font = Enum.Font.Unknown
+InfYeild.Text = "Inf Yeiild"
+InfYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYeild.TextSize = 9.000
+InfYeild.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+InfYeild.TextWrapped = true
+InfYeild.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Proton.Name = "Proton"
+Proton.Parent = ImageLabel
+Proton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Proton.BackgroundTransparency = 1.000
+Proton.BorderColor3 = Color3.fromRGB(130, 203, 255)
+Proton.Position = UDim2.new(0.17607224, 0, 0.654708505, 0)
+Proton.Size = UDim2.new(0, 54, 0, 50)
+Proton.Font = Enum.Font.Unknown
+Proton.Text = "Proton"
+Proton.TextColor3 = Color3.fromRGB(255, 255, 255)
+Proton.TextSize = 9.000
+Proton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Proton.TextWrapped = true
+Proton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Proton%20Free",true))();
+end)
+
+Sword.Name = "Sword"
+Sword.Parent = ImageLabel
+Sword.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sword.BackgroundTransparency = 1.000
+Sword.BorderColor3 = Color3.fromRGB(130, 203, 255)
+Sword.Position = UDim2.new(0.686230302, 0, 0.286995471, 0)
+Sword.Size = UDim2.new(0, 61, 0, 50)
+Sword.Font = Enum.Font.Unknown
+Sword.Text = "Sword"
+Sword.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sword.TextSize = 9.000
+Sword.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Sword.TextWrapped = true
+Sword.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/sword/main/sword",true))();
 end)
