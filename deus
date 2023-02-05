@@ -45,7 +45,6 @@ LegsAdmin.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
 end)
 
-
 Panthom.Name = "Panthom"
 Panthom.Parent = ImageLabel
 Panthom.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
@@ -79,7 +78,6 @@ KillBringgui.TextWrapped = true
 KillBringgui.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/GuiHub/main/Gui",true))();
 end)
-
 
 KillAll.Name = "Kill All"
 KillAll.Parent = ImageLabel
@@ -115,6 +113,7 @@ InfYeild.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+
 BringAll.Name = "Bring All"
 BringAll.Parent = ImageLabel
 BringAll.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
@@ -145,7 +144,7 @@ BlackHole.Text = "BlackHole"
 BlackHole.TextColor3 = Color3.fromRGB(255, 255, 255)
 BlackHole.TextSize = 11.000
 BlackHole.TextWrapped = true
-AudioVis.MouseButton1Down:connect(function()
+BlackHole.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/BlackHole/main/BlackHole",true))();
 end)
 
