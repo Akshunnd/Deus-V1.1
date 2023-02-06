@@ -162,5 +162,5 @@ Sword.TextSize = 9.000
 Sword.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Sword.TextWrapped = true
 Sword.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/sword/main/sword",true))();
+	loadstring(game:HttpGet("https://pastebin.com/raw/9fxp6z2P",true))();
 end)
