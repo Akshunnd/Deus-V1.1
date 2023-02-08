@@ -13,11 +13,12 @@ local Panthom = Instance.new("TextButton")
 local InfYeild = Instance.new("TextButton")
 local Proton = Instance.new("TextButton")
 local Sword = Instance.new("TextButton")
+local Invis = Instance.new("TextButton")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ResetOnSpawn = True
+ScreenGui.ResetOnSpawn = true
 
 ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -26,7 +27,7 @@ ImageLabel.Size = UDim2.new(0, 443, 0, 223)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12387063748"
 ImageLabel.ImageColor3 = Color3.fromRGB(174, 162, 199)
 ImageLabel.ImageTransparency = 0.210
-ImageLabel.Active = true
+ImageLabel.Active =true
 ImageLabel.Draggable = true
 
 KillAll.Name = "Kill All"
@@ -163,4 +164,21 @@ Sword.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Sword.TextWrapped = true
 Sword.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/9fxp6z2P",true))();
+end)
+
+Invis.Name = "Invis"
+Invis.Parent = ImageLabel
+Invis.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Invis.BackgroundTransparency = 1.000
+Invis.BorderColor3 = Color3.fromRGB(130, 203, 255)
+Invis.Position = UDim2.new(0.225733638, 0, 0, 0)
+Invis.Size = UDim2.new(0, 61, 0, 50)
+Invis.Font = Enum.Font.Unknown
+Invis.Text = "Invisible"
+Invis.TextColor3 = Color3.fromRGB(255, 255, 255)
+Invis.TextSize = 9.000
+Invis.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Invis.TextWrapped = true
+Invis.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/invisible/main/invisible%20hair",true))();
 end)
