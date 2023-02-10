@@ -18,7 +18,8 @@ local Invis = Instance.new("TextButton")
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ResetOnSpawn = false
+ScreenGui.ResetOnSpawn = flase
+
 
 ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -27,7 +28,7 @@ ImageLabel.Size = UDim2.new(0, 443, 0, 223)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12387063748"
 ImageLabel.ImageColor3 = Color3.fromRGB(174, 162, 199)
 ImageLabel.ImageTransparency = 0.210
-ImageLabel.Active = true
+ImageLabel.Active =true
 ImageLabel.Draggable = true
 
 KillAll.Name = "Kill All"
@@ -182,4 +183,3 @@ Invis.TextWrapped = true
 Invis.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/invisible/main/invisible%20hair",true))();
 end)
-
