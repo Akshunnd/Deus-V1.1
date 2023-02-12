@@ -28,7 +28,7 @@ ImageLabel.Size = UDim2.new(0, 443, 0, 223)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12387063748"
 ImageLabel.ImageColor3 = Color3.fromRGB(174, 162, 199)
 ImageLabel.ImageTransparency = 0.210
-ImageLabel.Active =true
+ImageLabel.Active = true
 ImageLabel.Draggable = true
 
 KillAll.Name = "Kill All"
