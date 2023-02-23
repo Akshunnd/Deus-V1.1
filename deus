@@ -14,6 +14,7 @@ local InfYeild = Instance.new("TextButton")
 local Proton = Instance.new("TextButton")
 local ChangeUser = Instance.new("TextButton")
 local Invis = Instance.new("TextButton")
+local BackDoor = Instance.new("TextButton")
 
 --Properties:
 
@@ -25,7 +26,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Position = UDim2.new(0.502131164, 0, 0.391094267, 0)
 ImageLabel.Size = UDim2.new(0, 443, 0, 223)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12387063748"
-ImageLabel.ImageColor3 = Color3.fromRGB(174, 162, 199)
+ImageLabel.ImageColor3 = Color3.fromRGB(130, 121, 167)
 ImageLabel.ImageTransparency = 0.210
 ImageLabel.Active = true
 ImageLabel.Draggable = true
@@ -46,6 +47,7 @@ KillAll.TextWrapped = true
 KillAll.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Kill%20All'))() 
 end)
+
 
 BringAll.Name = "Bring All"
 BringAll.Parent = ImageLabel
@@ -69,7 +71,7 @@ COOLGUI.Parent = ImageLabel
 COOLGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 COOLGUI.BackgroundTransparency = 1.000
 COOLGUI.BorderColor3 = Color3.fromRGB(130, 203, 255)
-COOLGUI.Position = UDim2.new(0.17607224, 0, 0.260089636, 0)
+COOLGUI.Position = UDim2.new(0.167042896, 0, 0.260089636, 0)
 COOLGUI.Size = UDim2.new(0, 61, 0, 50)
 COOLGUI.Font = Enum.Font.Unknown
 COOLGUI.Text = "COOLGUI"
@@ -97,6 +99,7 @@ Visualizer.TextWrapped = true
 Visualizer.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/HashHub/main/HashHub",true))();
 end)
+
 
 Panthom.Name = "Panthom"
 Panthom.Parent = ImageLabel
@@ -181,4 +184,21 @@ Invis.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Invis.TextWrapped = true
 Invis.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/invisible/main/invisible%20hair",true))();
+end)
+
+BackDoor.Name = "BackDoor"
+BackDoor.Parent = ImageLabel
+BackDoor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BackDoor.BackgroundTransparency = 1.000
+BackDoor.BorderColor3 = Color3.fromRGB(130, 203, 255)
+BackDoor.Position = UDim2.new(0.790067732, 0, -5.96046448e-08, 0)
+BackDoor.Size = UDim2.new(0, 61, 0, 50)
+BackDoor.Font = Enum.Font.Unknown
+BackDoor.Text = "BackDoor"
+BackDoor.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackDoor.TextSize = 9.000
+BackDoor.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+BackDoor.TextWrapped = true
+BackDoor.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/Backdoorer/main/Backdoor",true))();
 end)
