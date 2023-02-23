@@ -1,4 +1,7 @@
-Made by :- Aks_z0
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
@@ -9,14 +12,13 @@ local Visualizer = Instance.new("TextButton")
 local Panthom = Instance.new("TextButton")
 local InfYeild = Instance.new("TextButton")
 local Proton = Instance.new("TextButton")
-local Sword = Instance.new("TextButton")
+local ChangeUser = Instance.new("TextButton")
 local Invis = Instance.new("TextButton")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ResetOnSpawn = true
-
 
 ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -147,22 +149,21 @@ Proton.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Proton%20Free",true))();
 end)
 
-Sword.Name = "Sword"
-Sword.Parent = ImageLabel
-Sword.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Sword.BackgroundTransparency = 1.000
-Sword.BorderColor3 = Color3.fromRGB(130, 203, 255)
-Sword.Position = UDim2.new(0.686230302, 0, 0.286995471, 0)
-Sword.Size = UDim2.new(0, 61, 0, 50)
-Sword.Font = Enum.Font.Unknown
-Sword.Text = "Sword"
-Sword.TextColor3 = Color3.fromRGB(255, 255, 255)
-Sword.TextSize = 9.000
-Sword.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Sword.TextWrapped = true
-Sword.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/9fxp6z2P",true))();
-end)
+ChangeUser.Name = "Change User"
+ChangeUser.Parent = ImageLabel
+ChangeUser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChangeUser.BackgroundTransparency = 1.000
+ChangeUser.BorderColor3 = Color3.fromRGB(130, 203, 255)
+ChangeUser.Position = UDim2.new(0.686230302, 0, 0.286995471, 0)
+ChangeUser.Size = UDim2.new(0, 61, 0, 50)
+ChangeUser.Font = Enum.Font.Unknown
+ChangeUser.Text = "Change user"
+ChangeUser.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChangeUser.TextSize = 9.000
+ChangeUser.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+ChangeUser.TextWrapped = true
+ChangeUser.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/ikd/main/lol",true))();end)
 
 Invis.Name = "Invis"
 Invis.Parent = ImageLabel
