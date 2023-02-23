@@ -163,7 +163,8 @@ ChangeUser.TextSize = 9.000
 ChangeUser.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 ChangeUser.TextWrapped = true
 ChangeUser.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/ikd/main/lol",true))();end)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/ikd/main/lol",true))();
+end)
 
 Invis.Name = "Invis"
 Invis.Parent = ImageLabel
